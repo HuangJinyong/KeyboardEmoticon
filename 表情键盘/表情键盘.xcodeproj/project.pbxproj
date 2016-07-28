@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B758DAD1D49226100AFAD1A /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B758DAC1D49226100AFAD1A /* Emoticons.bundle */; };
+		4B758DAF1D4A4D4C00AFAD1A /* JYKeyboardEmoticonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B758DAE1D4A4D4C00AFAD1A /* JYKeyboardEmoticonCollectionViewCell.swift */; };
 		4B78E3601D4522C90005AD38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78E35F1D4522C90005AD38 /* AppDelegate.swift */; };
 		4B78E3621D4522C90005AD38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78E3611D4522C90005AD38 /* ViewController.swift */; };
 		4B78E3651D4522C90005AD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B78E3631D4522C90005AD38 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		4B758DAC1D49226100AFAD1A /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		4B758DAE1D4A4D4C00AFAD1A /* JYKeyboardEmoticonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYKeyboardEmoticonCollectionViewCell.swift; sourceTree = "<group>"; };
 		4B78E35C1D4522C90005AD38 /* 表情键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B78E35F1D4522C90005AD38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B78E3611D4522C90005AD38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				4BCAC82C1D490582000ED6D4 /* JYKeyboardEmoticonViewController.swift */,
+				4B758DAE1D4A4D4C00AFAD1A /* JYKeyboardEmoticonCollectionViewCell.swift */,
 				4BCAC82E1D4905A0000ED6D4 /* JYKeyboardPackage.swift */,
 				4B78E3E61D47B3C00005AD38 /* JYKeyboardTextAttachment.swift */,
 				4B78E3E81D47BDD00005AD38 /* UITextView+Extension.swift */,
@@ -285,6 +288,7 @@
 			files = (
 				4B78E3E91D47BDD10005AD38 /* UITextView+Extension.swift in Sources */,
 				4B78E3621D4522C90005AD38 /* ViewController.swift in Sources */,
+				4B758DAF1D4A4D4C00AFAD1A /* JYKeyboardEmoticonCollectionViewCell.swift in Sources */,
 				4B78E3E71D47B3C00005AD38 /* JYKeyboardTextAttachment.swift in Sources */,
 				4BCAC82D1D490582000ED6D4 /* JYKeyboardEmoticonViewController.swift in Sources */,
 				4B78E3601D4522C90005AD38 /* AppDelegate.swift in Sources */,

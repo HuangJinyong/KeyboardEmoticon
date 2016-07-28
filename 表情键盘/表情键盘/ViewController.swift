@@ -18,16 +18,15 @@ class ViewController: UIViewController {
         textView.inputView = keyboardEmoticonVC.view
     }
 
-//    private lazy var keyboardEmoticonVC: JYKeyboardEmoticonViewController = JYKeyboardEmoticonViewController { [weak self](emoticon) in
-//        self!.textView.insertEmoticon(emoticon)
-//    }
-     private lazy var keyboardEmoticonVC: JYKeyboardEmoticonViewController = JYKeyboardEmoticonViewController()
+    private lazy var keyboardEmoticonVC: JYKeyboardEmoticonViewController = JYKeyboardEmoticonViewController { [weak self](emoticon) in
+        self!.textView.insertEmoticon(emoticon)
+    }
  
     
     // 获取文本的
     @IBAction func buttonClick(sender: UIButton) {
    
-//        print(textView.replaceEmoticonAttributedString())
+        print(textView.replaceEmoticonAttributedString())
         
     }
 
