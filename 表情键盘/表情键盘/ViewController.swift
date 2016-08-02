@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let str = "dfas[哈哈]fd[好爱哦]af[嘻嘻]d"
         
+        textView.attributedText = JYKeyboardPackage.createAttributedString(str, font: textView.font!)
         textView.inputView = keyboardEmoticonVC.view
     }
 
